@@ -9,3 +9,21 @@ Here's a relatively easy way to get your own OpenAI compatible API endpoint runn
 5. Once deployed, you will be given a new https endpoint.
 6. Pull a new image such as `llama3` using ```curl https://<yourendpoint>.paperspacegradient.com/api/pull -d '{"name": "llama3"}'```
 8. That’s it! you’ve now got an OpenAI compatible API endpoint available at your Gradient URL, it will work with OpenAI compatible tools.
+
+Paperspace deployment config json:
+
+```json
+{
+  "apiVersion": "v1",
+  "image": "ollama/ollama:latest",
+  "name": "ollama",
+  "enabled": false,
+  "resources": {
+    "machineType": "RTX4000",
+    "replicas": 1,
+    "ports": [
+      11434
+    ]
+  }
+}
+```

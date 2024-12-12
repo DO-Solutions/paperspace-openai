@@ -1,3 +1,7 @@
+**This repository has been archived.**
+
+DigitalOcean has acquired Paperspace. We recommend exploring [DigitalOcean GPU Droplets](https://docs.digitalocean.com/products/droplets/how-to/gpu/), DigitalOcean Managed Kubernetes with [GPU Worker Nodes](https://docs.digitalocean.com/products/kubernetes/details/features/#gpu-worker-nodes), or the [DigitalOcean Gen AI Platform](https://docs.digitalocean.com/products/genai-platform/) as robust, fully supported alternatives. These platforms offer comprehensive solutions tailored to modern GPU-based workloads.
+
 # Create an OpenAI API compatible endpoint on Paperspace using open source models.
 
 Here's a relatively easy way to get your own OpenAI compatible API endpoint running on Paperspace.
